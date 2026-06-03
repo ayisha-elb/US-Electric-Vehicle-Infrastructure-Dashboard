@@ -1,6 +1,6 @@
 # Electric Vehicle (EV) Charging Infrastructure Dashboard
 
-### Project Overview
+## Project Overview
 <br>
 
 This project combines API integration, PostgreSQL, and Tableau to create a dashboard showcasing information regarding electric vehicle (EV) infrastructure in the United States. All data was retrieved through the NLR AFDC API and the US Census Bureau Population API. This data was then linked to a Tableau dashboard through a PostgreSQL database. This project examines the total number of registered EVs and plug-in hybrid electric vehicles (PHEVs) per state, the total number of ports and stations per state by population density (per 100,000 people) and land area (per 1000 sq miles), the number of EVs per port and station per state, the number of EVs per fast charging ports (i.e. Level 2 and DC fast), the percent of ports that are DC fast per state, and more. This data can be used to analyze which parts of the US have gaps in EV charging infrastructure, and this information can aid in deciding where to focus future charging station projects in addition to identifying areas of congestion, and EV and PHEV usage per state. This project also shows the amount of charging stations available every year since 2001, which shows the trend in how quickly charging station infrastructure is being built. Median household income is also compared EV accessibility and port density by state.
@@ -9,7 +9,7 @@ This project combines API integration, PostgreSQL, and Tableau to create a dashb
 Note: A station can have multiple ports. To compare with contemporary gas stations: a port is to a gas pump and a charging station is to a gas station.
 
 
-### Tools Used
+## Tools Used
 
 Python
 Pandas
@@ -20,14 +20,14 @@ PostgreSQL
 Tableau
 Public APIs
 
-### Data Sources
+## Data Sources
 
 NLR AFDC API
 US Census Bureau Population API
 AFDC Vehicle Registration Data
 State land area reference data
 
-### Key Metrics
+## Key Metrics
 
 Charging stations per 100,000 people
 Charging ports per 100,000 people
@@ -48,7 +48,7 @@ Median household income
 Charging speed capacity score
 
 
-### Project Workflow
+## Project Workflow
 Extract EV charging station data from the NREL AFDC API using paginated API requests.
 Clean and transform station-level data using Pandas.
 Retrieve population and median household income data from the Census API.
@@ -59,7 +59,7 @@ Validate the database using SQL queries.
 Build Tableau dashboards to visualize state rankings and national charging station locations.
 
 
-### Dashboard Features
+## Dashboard Features
 
 The Tableau dashboard includes:
 <br>
@@ -72,7 +72,7 @@ Fast-charging access comparisons
 Population density and income-based infrastructure analysis
 
 
-### How to Run This Project
+## How to Run This Project
 
 1. Clone the repository.
 git clone <your-repo-url>
@@ -101,7 +101,7 @@ DB_CONNECTION=postgresql://postgres:your_password@localhost:5432/ev_project
 7. Open Tableau and connect to the PostgreSQL database or use the exported CSV files.
 <br>
 
-### Repository Structure
+## Repository Structure
 ev-infrastructure-analytics
 │
 ├── README.md
@@ -114,9 +114,10 @@ ev-infrastructure-analytics
 │   └── ev_project.sql
 ├── images showing Tableau dashboard
 ├─── .csv backup files
+<br>
  
 
-### Future Improvements
+## Future Improvements
 
 Potential future improvements include:
 <br>
