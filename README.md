@@ -87,6 +87,7 @@ git clone <your-repo-url>
 <br>
 
 4. Add your API keys and local PostgreSQL connection string to the .env file.
+
 NREL_API_KEY=your_nrel_api_key_here
 CENSUS_API_KEY=your_census_api_key_here
 DB_CONNECTION=postgresql://postgres:your_password@localhost:5432/ev_project
