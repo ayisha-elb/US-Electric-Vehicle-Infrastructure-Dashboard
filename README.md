@@ -11,65 +11,66 @@ Note: A station can have multiple ports. To compare with contemporary gas statio
 
 ## Tools Used
 
-Python
-Pandas
-Requests
-SQLAlchemy
-Jupyter Notebook
-PostgreSQL
-Tableau
-Public APIs
+* Python
+* Pandas
+* Requests
+* SQLAlchemy
+* Jupyter Notebook
+* PostgreSQL
+* Tableau
+* Public APIs
 
 ## Data Sources
 
-NLR AFDC API
-US Census Bureau Population API
-AFDC Vehicle Registration Data
-State land area reference data
+* NLR AFDC API
+* US Census Bureau Population API
+* AFDC Vehicle Registration Data
+* State land area reference data
 
 ## Key Metrics
 
-Charging stations per 100,000 people
-Charging ports per 100,000 people
-DC fast charging ports per 100,000 people
-Stations per 1,000 square miles
-Ports per 1,000 square miles
-DC fast charging ports per 1,000 square miles
-EVs per charging station
-EVs per charging port
-EVs per DC fast charging port
-EVs per weighted fast charging ports by score
-PHEVs per charging station
-PHEVs per charging port
-PHEVs per DC fast charging port
-Weighted fast charging ports by score per 100,000 people
-Population density
-Median household income
-Charging speed capacity score
+* Charging stations per 100,000 people
+* Charging ports per 100,000 people
+* DC fast charging ports per 100,000 people
+* Stations per 1,000 square miles
+* Ports per 1,000 square miles
+* DC fast charging ports per 1,000 square miles
+* EVs per charging station
+* EVs per charging port
+* EVs per DC fast charging port
+* EVs per weighted fast charging ports by score
+* PHEVs per charging station
+* PHEVs per charging port
+* PHEVs per DC fast charging port
+* Weighted fast charging ports by score per 100,000 people
+* Population density
+* Median household income
+* Charging speed capacity score
+* <br>
 
 
 ## Project Workflow
-Extract EV charging station data from the NREL AFDC API using paginated API requests.
-Clean and transform station-level data using Pandas.
-Retrieve population and median household income data from the Census API.
-Add EV registration and plug-in hybrid registration data.
-Engineer state-level accessibility, infrastructure pressure, and density metrics.
-Load cleaned datasets into PostgreSQL.
-Validate the database using SQL queries.
-Build Tableau dashboards to visualize state rankings and national charging station locations.
-
+1. Extract EV charging station data from the NREL AFDC API using paginated API requests.
+2. Clean and transform station-level data using Pandas.
+3. Retrieve population and median household income data from the Census API.
+4. Add EV registration and plug-in hybrid registration data.
+5. Engineer state-level accessibility, infrastructure pressure, and density metrics.
+6. Load cleaned datasets into PostgreSQL.
+7. Validate the database using SQL queries.
+8. Build Tableau dashboards to visualize state rankings and national charging station locations.
+<br>
 
 ## Dashboard Features
 
 The Tableau dashboard includes:
 <br>
 
-National maps of EV charging station and port density by state
-A national map of EV density by state
-State-level rankings of charging infrastructure accessibility
-Metrics comparing EV demand to available charging infrastructure
-Fast-charging access comparisons
-Population density and income-based infrastructure analysis
+* National maps of EV charging station and port density by state
+* A national map of EV density by state
+* State-level rankings of charging infrastructure accessibility
+* Metrics comparing EV demand to available charging infrastructure
+* Fast-charging access comparisons
+* Population density and income-based infrastructure analysis
 <br> 
 
 Please note the .twbx version of the dashboard is not updatable through API integration; this downloadable version was uploaded for ease of access and viewing. You must follow the instructions in this file if you want to see the live, updated dashboard.
@@ -115,7 +116,18 @@ Census API key signup: https://api.census.gov/data/key_signup.html
 <br>
 
 ## Repository Structure
-ev-infrastructure-analytics (main file):  README.md,  requirements.txt,  .gitignore,  env.example,  notebooks --> ev_infrastructure_analysis.ipynb,  sql --> ev_project.sql,  images showing Tableau dashboard,  .csv backup files, .twbx (not connected to the API)
+ev-infrastructure-analytics (main file): 
+* README.md
+* requirements.txt
+* .gitignore
+* env.example
+* notebooks -->
+    * ev_infrastructure_analysis.ipynb
+* sql -->
+    * ev_project.sql
+* images showing Tableau dashboard
+* .csv backup files
+* .twbx (downloadable file not connected to the API, instructions for API version above)
 <br>
 
 ## Future Improvements
