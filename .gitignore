@@ -228,9 +228,6 @@ __marimo__/
 __pycache__/
 *.pyc
 
-# Local data exports
-*.csv
-
 # OS files
 .DS_Store
 Thumbs.db
