@@ -46,7 +46,7 @@ Note: A station can have multiple ports. To compare with contemporary gas statio
 * Population density
 * Median household income
 * Charging speed capacity score
-* <br>
+<br>
 
 
 ## Project Workflow
