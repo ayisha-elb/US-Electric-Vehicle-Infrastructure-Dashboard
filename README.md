@@ -102,7 +102,7 @@ DB_CONNECTION=postgresql://postgres:your_password@localhost:5432/ev_project
 <br>
 
 ## Repository Structure
-ev-infrastructure-analytics:  README.md,  requirements.txt,  .gitignore,  example.env,  notebooks: ev_infrastructure_analysis.ipynb,  sql: ev_project.sql,  mages showing Tableau dashboard,  .csv backup files
+ev-infrastructure-analytics (main file):  README.md,  requirements.txt,  .gitignore,  example.env,  notebooks --> ev_infrastructure_analysis.ipynb,  sql --> ev_project.sql,  images showing Tableau dashboard,  .csv backup files
 <br>
 
 ## Future Improvements
