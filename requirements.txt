@@ -1,0 +1,10 @@
+pandas
+requests
+SQLAlchemy
+psycopg2-binary
+python-dotenv
+lxml
+html5lib
+beautifulsoup4
+notebook
+ipykernel
