@@ -216,3 +216,21 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Tableau local files, optional
+*.twb
+*.twbx
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Local data exports
+*.csv
+
+# OS files
+.DS_Store
+Thumbs.db
