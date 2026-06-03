@@ -70,7 +70,9 @@ State-level rankings of charging infrastructure accessibility
 Metrics comparing EV demand to available charging infrastructure
 Fast-charging access comparisons
 Population density and income-based infrastructure analysis
+<br> 
 
+Please note the .twbx version of the dashboard is not updatable through API integration; this downloadable version was uploaded for ease of access and viewing. You must follow the instructions in this file if you want to see the live, updated dashboard.
 
 ## How to Run This Project
 
@@ -106,7 +108,7 @@ git clone <your-repo-url>
 <br>
 
 ## Repository Structure
-ev-infrastructure-analytics (main file):  README.md,  requirements.txt,  .gitignore,  env.example,  notebooks --> ev_infrastructure_analysis.ipynb,  sql --> ev_project.sql,  images showing Tableau dashboard,  .csv backup files
+ev-infrastructure-analytics (main file):  README.md,  requirements.txt,  .gitignore,  env.example,  notebooks --> ev_infrastructure_analysis.ipynb,  sql --> ev_project.sql,  images showing Tableau dashboard,  .csv backup files, .twbx (not connected to the API)
 <br>
 
 ## Future Improvements
