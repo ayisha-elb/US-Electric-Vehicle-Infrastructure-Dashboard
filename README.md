@@ -93,6 +93,7 @@ git clone <your-repo-url>
   CENSUS_API_KEY=your_census_api_key_here
 
   DB_CONNECTION=postgresql://postgres:your_password@localhost:5432/ev_project
+
 <br>
 
 5. Create a PostgreSQL database named ev_project.
