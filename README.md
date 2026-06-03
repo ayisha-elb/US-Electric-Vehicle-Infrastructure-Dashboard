@@ -121,9 +121,9 @@ ev-infrastructure-analytics (main file):
 * requirements.txt
 * .gitignore
 * env.example
-* notebooks -->
+* notebooks 
     * ev_infrastructure_analysis.ipynb
-* sql -->
+* sql 
     * ev_project.sql
 * images showing Tableau dashboard
 * .csv backup files
