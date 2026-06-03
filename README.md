@@ -15,7 +15,7 @@ Python
 Pandas
 Requests
 SQLAlchemy
-JupyterLab
+Jupyter Notebook
 PostgreSQL
 Tableau
 Public APIs
@@ -88,17 +88,17 @@ git clone <your-repo-url>
 
 4. Add your API keys and local PostgreSQL connection string to the .env file.
 
-NREL_API_KEY=your_nrel_api_key_here
+  NREL_API_KEY=your_nrel_api_key_here
 
-CENSUS_API_KEY=your_census_api_key_here
+  CENSUS_API_KEY=your_census_api_key_here
 
-DB_CONNECTION=postgresql://postgres:your_password@localhost:5432/ev_project
+  DB_CONNECTION=postgresql://postgres:your_password@localhost:5432/ev_project
 <br>
 
 5. Create a PostgreSQL database named ev_project.
 <br>
 
-6. Run the Jupyter notebook to extract, clean, transform, and load the data.
+6. Run the entire Jupyter notebook to extract, clean, transform, and load the data. 
 <br>
 
 7. Open Tableau and connect to the PostgreSQL database or use the exported CSV files.
