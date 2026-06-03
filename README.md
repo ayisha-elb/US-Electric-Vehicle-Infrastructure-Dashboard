@@ -123,8 +123,8 @@ ev-infrastructure-analytics (main file):  README.md,  requirements.txt,  .gitign
 Potential future improvements include:
 <br>
 
-County-level EV infrastructure analysis
-Rural vs. urban charging gap analysis
-Income-based equity scoring
-Charging infrastructure forecasting
-Integration of EV adoption growth trends over time
+* County-level EV infrastructure analysis
+* Rural vs. urban charging gap analysis
+* Income-based equity scoring
+* Charging infrastructure forecasting
+* Integration of EV adoption growth trends over time
