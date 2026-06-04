@@ -57,7 +57,7 @@ Note: A station can have multiple ports. To compare with contemporary gas statio
 5. Engineer state-level accessibility, infrastructure pressure, and density metrics.
 6. Load cleaned datasets into PostgreSQL.
 7. Validate the database using SQL queries.
-8. Build Tableau dashboards to visualize state rankings and national charging station locations.
+8. Build Tableau dashboard based on .twbx to visualize state rankings and national charging station locations, or view .twbx file directly in Tableau to view the dashboard with backup data.
 <br>
 
 ## Dashboard Features
@@ -73,7 +73,7 @@ The Tableau dashboard includes:
 * Population density and income-based infrastructure analysis
 <br> 
 
-Please note the .twbx version of the dashboard is not updatable through API integration; this downloadable version was uploaded for ease of access and viewing. You must follow the instructions in this file if you want to see the live, updated dashboard.
+Please note the .twbx version of the dashboard is not updatable through API integration; this downloadable version was uploaded for ease of access and viewing. You must follow the instructions in this file if you want to see the live data dashboard. Also note that this project is not yet automated; API data is only pulled when the user runs the Jupyter Notebook file.
 
 ## How to Run This Project
 
@@ -114,6 +114,8 @@ Census API key signup: https://api.census.gov/data/key_signup.html
 
 7. Open Tableau and connect to the PostgreSQL database or use the exported CSV files.
 <br>
+
+8. Build dashboard with live API data based on the .twbx dashboard uploaded. If you do not want to view the dashboard with live API data, you can just use the .twbx file to use the dashboard with backup data.
 
 ## Repository Structure
 ev-infrastructure-analytics (main file): 
